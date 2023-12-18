@@ -8,10 +8,10 @@ for letter in ciphertext:
     Ctext.append(letter)
 print(Ctext)
 size = len(Ctext)
-Matrix1 = int(input("Input first num of matrix: "))
-Matrix2 = int(input("Input second num of matrix: "))
-Matrix3 = int(input("Input third num of matrix: "))
-Matrix4 = int(input("Input fourth num of matrix: "))
+Matrix4 = int(input("Input first num of matrix: "))
+Matrix3 = int(input("Input second num of matrix: "))
+Matrix2 = int(input("Input third num of matrix: "))
+Matrix1 = int(input("Input fourth num of matrix: "))
 Matrix2 = Matrix2 * -1
 Matrix3 = Matrix3 * -1
 for i in range(0,size,2):
